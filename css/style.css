@@ -1,0 +1,31 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: black;
+}
+
+/* Navigation */
+
+#menu {
+    padding: 20px;
+    transition: all 0.8s;
+}
+
+#menu a.navbar-brand {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+#menu a.navbar-brand {
+    color: #0ba2db;
+    vertical-align: top;
+}
+
+.navbar-default .navbar-toggle:hover>.icon-bar {
+    background-color: rgb(121, 83, 83);
+}
