@@ -1,11 +1,24 @@
 body,
 html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
     width: 100%;
     height: 100%;
 }
 
 a {
     color: black;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #222;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 /* Navigation */
@@ -15,17 +28,91 @@ a {
     transition: all 0.8s;
 }
 
-#menu a.navbar-brand {
-    font-size: 20px;
-    color: black;
-    font-weight: 500;
+#menu.navbar-extend-lg {
+    background-color: rgba(248, 248, 248, 0);
+    border-color: rgba(231, 231, 231, 0);
 }
 
 #menu a.navbar-brand {
+    font-size: 20px;
+    color: #444;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#menu a.navbar-brand i.fa {
     color: #0ba2db;
     vertical-align: top;
 }
 
-.navbar-default .navbar-toggle:hover>.icon-bar {
-    background-color: rgb(121, 83, 83);
+#menu.navbar-extend-lg .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: red;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#menu.navbar-extend-lg .navbar-nav>li>a:hover {
+    color: #0ba2db;
+}
+
+.on {
+    background-color: #f6f6f6 !important;
+    border-bottom: 1px solid #ddd !important;
+    padding: 10px 0 !important;
+}
+
+.navbar-extend-lg .navbar-nav>.active>a,
+.navbar-extend-lg .navbar-nav>.active>a:hover,
+.navbar-extend-lg .navbar-nav>.active>a:focus {
+    color: #0ba2db !important;
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    border-radius: 0;
+}
+
+.navbar-extend-lg .navbar-toggler:hover,
+.navbar-extend-lg .navbar-toggler:focus {
+    background-color: #0ba2db;
+    border-color: #0ba2db;
+}
+
+.navbar-extend-lg .navbar-toggler:hover>.icon-bar {
+    background-color: #FFF;
+}
+
+a.page-scroll {
+    padding: 15px;
+    
+}
+
+/* Header/Opening Page */
+
+.intro {
+    display: table;
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+#about {
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+}
+
+#stories {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+}
+
+#contact {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(119, 119, 119);
 }
