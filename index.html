@@ -3,61 +3,42 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jeremy Webpage</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-expand-lg">
 
-    <!--Navigation
-         ================================ -->
-
-    <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-
-            <div class="navbar-header">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Jeremy Williams</a>
-            </div>
-
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav navbar-right">
-
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#stories">Stories</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     <!-- Top Page 
         ===================== -->
-
     <header id="header">
-        <div class="intro">
-            <div class="container">
-                <div class="row">
-                    <h1>
-                        < header>
-                    </h1>
+        <div class="container">
+            <div class="row header-row-one">
+                <div class="col-sm">
+                    <h1>Jeremy Williams</h1>
+                    <h2>Writer, Blogger, Delight </h2>
+                    <h2>Let's start the fun</h2>
+                    <h4>Please choose Your path</h4>
+                    <h5>Left to About / right to stories</h5>
+                </div>
+            </div>
+
+            <div class="row header-row-two">
+                <div class="col-sm">
+                    <a href="#about">
+                        <button class="left-path">Left Path</button>
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <a href="#stories">
+                        <button class="right-path">Right Path</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -65,43 +46,202 @@
 
     <!-- About section 
     ========================= -->
-
     <div id="about">
         <div class="container">
-            <h1>about section </h1>
-        </div>
-    </div>
+            <h1 class="section-h1">about section </h1>
+            <hr>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="http://via.placeholder.com/300x400">
+                </div>
+                <div class="col-sm-8">
+                    <p>section you tell about yourself</p>
+                </div>
 
-    <!-- Stories
+            </div>
+        </div>
+
+        <!-- Stories
         ====================== -->
+        <div id="stories">
+            <div class="container">
 
-    <div id="stories">
-        <div class="container">
-            <h1>all the stories</h1>
+                <h1 class="section-h1">all the stories</h1>
+                <hr>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Short Stories
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+
+                                <!--  ==== Fade ====  -->
+                                <a data-toggle="modal" data-target="#exampleModal">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="assets/images/Fade.jpg" alt="Fade">
+                                        <div class="card-body">
+                                            <p class="card-text">Description about the story</p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Fade</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p> Samuel pounded on the bathroom door as it muffled the sounds of sniffling
+                                                    from inside. “C’mon man, I gotta take a pee! You wanna cry, go in your
+                                                    room!” Andre sat on the closed toilet seat with his face buried in his
+                                                    hands, a looped rope dangling over the bathtub’s edge. The pounding became
+                                                    more aggressive. “Yo, ‘Dre, it ain’t like you died or somethin’, man!”
+                                                    Eric stuck his head out of his room door, his voice at a whisper. “Sam,
+                                                    just chill, man. Here, use my bathroom.” Eric opened his door wider.
+                                                    Sam shook his head and entered. “Why’s he trippin’ over some girl anyway?
+                                                    She wasn’t even that cute. If a girl ever dumped me, I’d be celebrating
+                                                    my freedom.” Eric rolled his eyes. “Not everyone’s like you, Sam. Give
+                                                    him some time to think things over.” Sam carelessly waved his hand at
+                                                    his roommate. “Whatever.” Sam zipped himself up and walked toward the
+                                                    front door. A loud thud sounded from the locked bathroom, and then pounding
+                                                    on the door from the inside. Sam looked over his shoulder. “Don’t be
+                                                    mad at ME, ‘Dre. You’re the one lettin’ this girl keep you down.” The
+                                                    loud banging persisted. Sam rolled his eyes and walked out the door.
+                                                    He walked down the stairs of the apartment and froze. A dozen residents
+                                                    stood in the parking lot, looking up at the apartment building next to
+                                                    Sam’s. He slowly walked toward one of the neighbors and tapped a middle-aged
+                                                    man on the shoulder. The man jumped. Sam jumped in response. “Sorry,
+                                                    bro. What the hell are you guys doing?” The man was pale in the face.
+                                                    He looked back to the apartment and pointed at a floor of open doors.
+                                                    “M-Ms. Johnson just passed away a few minutes ago... We knew she was
+                                                    gonna go sometime soon... but s-something happened to her after that...
+                                                    She entered our homes and-and... I can’t explain it...” Sam looked up
+                                                    at the building and saw Ms. Johnson appear in a doorway, walking in a
+                                                    bizarre, stumbling fashion, blood covering her mouth and her baby blue
+                                                    nightgown, the tubes from her oxygen tank dangling in front of her crimson-stained
+                                                    teeth. Her veins protruded all over from under her gray skin. The crowd
+                                                    below gasped, some whimpering sympathetically. She let out a haunting
+                                                    screech. Other gray-skinned residents emerged in the open doorways, deep
+                                                    bite marks in their necks and forearms. “Gracie!” A woman screamed up
+                                                    to her changed, 10-year-old daughter before collapsing to her knees in
+                                                    tears. The young girl and the rest of the strange residents howled like
+                                                    Ms. Johnson and began jumping over the rails of the second floor, some
+                                                    of them gripping the walls and rapidly descending. Three of the gray
+                                                    people hit the ground and charged at the gawking residents, sinking their
+                                                    teeth into their living skin. Sam’s eyes widened. “Oh, hell no.” He scurried
+                                                    back up the stairs of his building. The pounding continued on the bathroom
+                                                    door inside Sam’s apartment. Eric got off his bed, placing his phone
+                                                    on his pillow. The phone buzzed as the screen lit up with a call from
+                                                    Sam. Eric stood at the bathroom door with a key in his hand. “Alright,
+                                                    ‘Dre, I’m coming in. This is gettin’ outta hand, bro.” Eric unlocked
+                                                    the door and twisted the doorknob. A gray Andre with protruding veins
+                                                    fell on top of him, a rope looped tightly around his neck, a broken shower
+                                                    pipe connected to the other end of it. Andre let out a piercing screech
+                                                    before biting into Eric’s shoulder. Sam reached his apartment door and
+                                                    burst inside, shutting and locking the door behind him. “You wouldn’t
+                                                    BELIEVE what I just-“ Sam turned and faced a red-mouthed Andre, his eyes
+                                                    looking to the noose around his neck. “No... You didn’t, ‘Dre...” Andre
+                                                    lunged at Sam, pinning him to the floor. Eric rose to his feet in his
+                                                    new, gray skin, running past the two roommates and crashing through the
+                                                    window. Andre sank his teeth into Sam. Eric flung himself over the railing
+                                                    and hit the bottom floor sidewalk with undead feet. He ran toward the
+                                                    feeding frenzy of residential victims as Sam’s dark brown skin faded
+                                                    to gray.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Horror Stories
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                                3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    different stories
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                                3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <!-- Contact
+        <!-- Contact
         ======================= -->
-
-    <div id="contact">
-        <div class="container">
-            <h1>contact area</h1>
+        <div id="contact">
+            <div class="container">
+                <h1 class="section-h1">contact area</h1>
+                <hr>
+            </div>
         </div>
-    </div>
 
-    <!-- Footer
+        <!-- Footer
         ======================= -->
+        <footer id="footer">
+            <div class="container">
+                <p>Copyright &copy;2018 Design By Chris Wander</p>
+                <p>Copyright &copy;2018 All Written Words By Jeremy Williams</p>
+        </footer>
 
-    <footer>
-        < footer>
-    </footer>
+        <!-- Javascript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+            crossorigin="anonymous"></script>
+        <script src="assets/js/stories.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>

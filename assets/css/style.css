@@ -1,0 +1,94 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*====   General   ====*/
+
+hr {
+    height: 2px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background: #cccccc;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.container .section-h1 {
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+/*====   top Page   ====*/
+
+#header {
+    width: 100%;
+    height: 900px;
+    background-image: url("/assets/images/road-header-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-row-one {
+    text-align: center;
+    color: white;
+    padding: 50px 0 0 0;
+}
+
+.header-row-one h1 {
+    font-size: 55px;
+}
+
+.header-row-two {
+    margin: 450px 0 0 0;
+}
+
+.header-row-two .left-path {
+    float: right;
+    margin: 0 85px 0 0;
+}
+
+.header-row-two .right-path {
+    margin: 0 0 0 85px;
+}
+
+/*====   About   ====*/
+
+#about {
+    width: 100%;
+    height: 800px;
+    background-color: red;
+}
+
+/*====   Story Book   ====*/
+
+#stories {
+    width: 100%;
+    
+    background-color: green;
+}
+
+.modal-dialog {
+    width: 80%;
+}
+
+/*====   Contact   ====*/
+
+#contact {
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+}
+
+/*====   Footer   ====*/
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
