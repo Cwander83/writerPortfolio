@@ -10,7 +10,7 @@
         crossorigin="anonymous">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-expand-lg">
@@ -24,7 +24,7 @@
             <div class="row header-row-one">
                 <div class="col-sm">
                     <div class="header-brand-box">
-                        <h1>Jeremy Williams</h1>
+                        <h1 class="customFont">Jeremy Williams</h1>
                         <h2>Writer, Blogger, Delight </h2>
                     </div>
                 </div>
@@ -86,15 +86,10 @@
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
-
+                            <div id="storyHeadings"></div>
                             <!--  ==== Fade ====  -->
                             <a data-toggle="modal" data-target="#exampleModal">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="assets/images/Fade.jpg" alt="Fade">
-                                    <div class="card-body">
-                                        <p class="card-text">Description about the story</p>
-                                    </div>
-                                </div>
+                                <h1>Fade</h1>
                             </a>
 
                             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -107,65 +102,14 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <p> Samuel pounded on the bathroom door as it muffled the sounds of sniffling from
-                                                inside. “C’mon man, I gotta take a pee! You wanna cry, go in your room!”
-                                                Andre sat on the closed toilet seat with his face buried in his hands, a
-                                                looped rope dangling over the bathtub’s edge. The pounding became more aggressive.
-                                                “Yo, ‘Dre, it ain’t like you died or somethin’, man!” Eric stuck his head
-                                                out of his room door, his voice at a whisper. “Sam, just chill, man. Here,
-                                                use my bathroom.” Eric opened his door wider. Sam shook his head and entered.
-                                                “Why’s he trippin’ over some girl anyway? She wasn’t even that cute. If a
-                                                girl ever dumped me, I’d be celebrating my freedom.” Eric rolled his eyes.
-                                                “Not everyone’s like you, Sam. Give him some time to think things over.”
-                                                Sam carelessly waved his hand at his roommate. “Whatever.” Sam zipped himself
-                                                up and walked toward the front door. A loud thud sounded from the locked
-                                                bathroom, and then pounding on the door from the inside. Sam looked over
-                                                his shoulder. “Don’t be mad at ME, ‘Dre. You’re the one lettin’ this girl
-                                                keep you down.” The loud banging persisted. Sam rolled his eyes and walked
-                                                out the door. He walked down the stairs of the apartment and froze. A dozen
-                                                residents stood in the parking lot, looking up at the apartment building
-                                                next to Sam’s. He slowly walked toward one of the neighbors and tapped a
-                                                middle-aged man on the shoulder. The man jumped. Sam jumped in response.
-                                                “Sorry, bro. What the hell are you guys doing?” The man was pale in the face.
-                                                He looked back to the apartment and pointed at a floor of open doors. “M-Ms.
-                                                Johnson just passed away a few minutes ago... We knew she was gonna go sometime
-                                                soon... but s-something happened to her after that... She entered our homes
-                                                and-and... I can’t explain it...” Sam looked up at the building and saw Ms.
-                                                Johnson appear in a doorway, walking in a bizarre, stumbling fashion, blood
-                                                covering her mouth and her baby blue nightgown, the tubes from her oxygen
-                                                tank dangling in front of her crimson-stained teeth. Her veins protruded
-                                                all over from under her gray skin. The crowd below gasped, some whimpering
-                                                sympathetically. She let out a haunting screech. Other gray-skinned residents
-                                                emerged in the open doorways, deep bite marks in their necks and forearms.
-                                                “Gracie!” A woman screamed up to her changed, 10-year-old daughter before
-                                                collapsing to her knees in tears. The young girl and the rest of the strange
-                                                residents howled like Ms. Johnson and began jumping over the rails of the
-                                                second floor, some of them gripping the walls and rapidly descending. Three
-                                                of the gray people hit the ground and charged at the gawking residents, sinking
-                                                their teeth into their living skin. Sam’s eyes widened. “Oh, hell no.” He
-                                                scurried back up the stairs of his building. The pounding continued on the
-                                                bathroom door inside Sam’s apartment. Eric got off his bed, placing his phone
-                                                on his pillow. The phone buzzed as the screen lit up with a call from Sam.
-                                                Eric stood at the bathroom door with a key in his hand. “Alright, ‘Dre, I’m
-                                                coming in. This is gettin’ outta hand, bro.” Eric unlocked the door and twisted
-                                                the doorknob. A gray Andre with protruding veins fell on top of him, a rope
-                                                looped tightly around his neck, a broken shower pipe connected to the other
-                                                end of it. Andre let out a piercing screech before biting into Eric’s shoulder.
-                                                Sam reached his apartment door and burst inside, shutting and locking the
-                                                door behind him. “You wouldn’t BELIEVE what I just-“ Sam turned and faced
-                                                a red-mouthed Andre, his eyes looking to the noose around his neck. “No...
-                                                You didn’t, ‘Dre...” Andre lunged at Sam, pinning him to the floor. Eric
-                                                rose to his feet in his new, gray skin, running past the two roommates and
-                                                crashing through the window. Andre sank his teeth into Sam. Eric flung himself
-                                                over the railing and hit the bottom floor sidewalk with undead feet. He ran
-                                                toward the feeding frenzy of residential victims as Sam’s dark brown skin
-                                                faded to gray.
-                                            </p>
+                                            <!-- the area where the story goes ===============
+                                        ================
+                                    ==================-->
                                         </div>
-                                        <div class="modal-footer">
+                                        <!-- <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                             <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -223,28 +167,28 @@
             <h1 class="section-h1">contact area</h1>
             <hr>
             <h3 class="h3-message-contact">Send me a Message</h3>
-            <form id="form" method="POST">
+            <form id="contactForm" name="sentMessage" novalidate>
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="form-group">
 
-                            <input placeholder="name" type="text" class="form-control" id="lname" name="lname"></input>
+                            <input placeholder="Name" type="text" class="form-control" id="name" required="required">
+                            <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
-
-                            <input placeholder="email" type="email" class="form-control" id="user_email" name="user_email"></input>
+                            <input placeholder="Email" type="email" class="form-control" id="email" required="required">
+                            <p class="help-block text-danger"></p>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-
-                    <textarea placeholder="message" type="text" name="message" class="form-control" id="message" rows="3"></textarea>
+                    <textarea placeholder="message" class="form-control" id="message" rows="4" required></textarea>
+                    <p class="help-block text-danger"></p>
                 </div>
-
-                <input type="text" name="_gotcha" style="display:none" />
-<button type="submit" class="btn btn-custom btn-lg">Submit</button>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-custom btn-lg">Send</button>
 
             </form>
         </div>
@@ -259,15 +203,13 @@
     </footer>
 
     <!-- Javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/stories.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script src="js/stories.js"></script>
+    <script type="text/javascript" src="/js/contact_me.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
 
 </body>
 

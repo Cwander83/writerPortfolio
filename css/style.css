@@ -1,0 +1,233 @@
+@font-face {
+	font-family: "My Custom Font";
+	src: url('./fonts/CRAMPS__.TTF') format("truetype");
+}
+
+@font-face {
+	font-family: "Font Two";
+	src: url('./fonts/qlarendoncondensed.otf') format("truetype");
+}
+
+h1.customFont {
+	font-family: "My Custom Font";
+}
+
+body,
+html {
+	font-family: 'Font Two';
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-image: url("../images/jeremy2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-origin: padding-box;
+}
+
+/*====   General   ====*/
+
+hr {
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #cccccc;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 0;
+}
+
+.container .section-h1 {
+	text-align: center;
+	padding: 30px 0 20px 0;
+	color: antiquewhite;
+}
+
+h1.section-h1 {
+	text-transform: uppercase;
+}
+
+/*====   top Page   ====*/
+
+#header {
+	width: 100%;
+	height: 900px;
+}
+
+.header-row-one {
+	color: white;
+	padding: 50px 0 0 0;
+}
+
+.header-row-one h1 {
+	font-size: 55px;
+}
+
+nav.header-nav-box {
+	float: right;
+}
+
+/*====   About   ====*/
+
+#about {
+	width: 100%;
+	height: 800px;
+	background-color: transparent;
+}
+
+/*====   Story Book   ====*/
+
+#stories {
+	width: 100%;
+	background-color: transparent;
+}
+
+.modal-dialog {
+	max-width: 1000px;
+	color: black;
+}
+
+div.card,
+.card-header {
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-bottom: none;
+}
+
+.card-header .mb-0 {
+	text-align: center;
+}
+
+/*====   Contact   ====*/
+
+#contact {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+	color: white;
+	display: flex;
+}
+
+div.container #form {
+	text-align: center;
+}
+
+.error {
+	color: red;
+}
+
+div.container .h3-message-contact {
+	text-align: center;
+	margin-bottom: 38px;
+}
+
+#form {
+	width: 60%;
+	margin: 20px auto;
+}
+
+#contact input {
+	border: 1px solid black;
+	border-radius: 0;
+}
+
+.btn-custom {
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #506066;
+	border: 0;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 20px;
+	border-radius: 2px;
+	margin-top: 20px;
+	transition: all 0.3s;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+	color: #fff;
+	background-color: rgb(145, 101, 101);
+}
+
+/*====   Footer   ====*/
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background-color: rgb(114, 114, 114, 0.7);
+	text-align: center;
+}
+
+#footer .container {
+	padding-top: 8px;
+}
+
+p.footer-p {
+	font-weight: 600;
+	color: white;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	/* Styles */
+	body,
+	html {
+		background-image: url("../images/JeremytheStoryteller.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-origin: padding-box;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+	/* Styles */
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+	/* Styles */
+}
+
+/* iPhone 4 ----------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+	/* Styles */
+}
