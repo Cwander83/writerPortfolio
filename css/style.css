@@ -81,8 +81,11 @@ nav.header-nav-box {
 #stories {
 	width: 100%;
 	background-color: transparent;
+	
 }
-
+.modal {
+	color: black;
+}
 .modal-dialog {
 	max-width: 1000px;
 	color: black;
