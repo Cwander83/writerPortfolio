@@ -2,215 +2,184 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Jeremy Webpage</title>
+	<meta charset="utf-8">
+	<title>Jeremy Webpage</title>
+	<!-- Viewport Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-        crossorigin="anonymous">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+	 crossorigin="anonymous">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-expand-lg">
 
-    <!-- Top Page 
+	<!-- Top Page 
         ===================== -->
 
-    <header id="header">
+	<header id="header">
 
-        <div class="container">
-            <div class="row header-row-one">
-                <div class="col-sm">
-                    <div class="header-brand-box">
-                        <h1 class="customFont">Jeremy Williams</h1>
-                        <h2>Writer, Blogger, Delight </h2>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <nav class="header-nav-box">
-                        <a href="#about">
-                            <h3>About</h3>
-                        </a>
-                        <a href="#stories">
-                            <h3>Stories</h3>
-                        </a>
-                        <a href="#contact">
-                            <h3>Contact</h3>
-                        </a>
+		<div class="container">
+			<div class="row header-row-one">
+				<div class="col-sm">
+					<div class="header-brand-box">
+						<h1 class="customFont">Jeremy Williams</h1>
 
-                    </nav>
-                </div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<nav class="header-nav-box">
+						<a href="#about">
+							<h3>About</h3>
+						</a>
+						<a href="#stories">
+							<h3>Stories</h3>
+						</a>
+						<a href="#contact">
+							<h3>Contact</h3>
+						</a>
 
-            </div>
+					</nav>
+				</div>
 
+			</div>
+			<div class="row header-body">
+				<div class="container">
+					<h2>Writer, Blogger, Delight </h2>
+					<a class="btn btn-custom btn-lg" href="#about">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</header>
 
-        </div>
-    </header>
-
-    <!-- About section 
+	<!-- About section 
     ========================= -->
-    <div id="about">
-        <div class="container">
-            <h1 class="section-h1">about section </h1>
-            <hr>
-            <div class="row">
-                <div class="col-sm-4">
+	<div id="about">
+		<div class="container">
+			<h1 class="section-h1">about section </h1>
+			<hr>
+			<div class="row">
+				<div class="col-sm">
+					<img src="./images/JeremytheStoryteller.jpg" alt="jeremy">
+				</div>
+				<div class="col-sm">
+					<div class="about-text">
+						<h3>With the stroke of a pen,<br>
+							I create worlds that have never been.<br>
+							With the strike of a key,<br>
+							I take readers places they thought they’d never be.
+						</h3><br><br>
+						<h3>&ensp; — Author. Writer. Creator.</h3>
+						<br>
+						<h3>&ensp; — Words Are My Mistress. Storytelling, My Spouse.</h3>
+					</div>
+				</div>
 
-                </div>
-                <div class="col-sm-8">
-                    <p>section you tell about yourself</p>
-                </div>
+			</div>
+		</div>
+	</div>
 
-            </div>
-        </div>
-    </div>
-
-    <!-- Stories
+	<!-- Stories
         ====================== -->
-    <div id="stories">
-        <div class="container">
+	<div id="stories">
+		<div class="container">
 
-            <h1 class="section-h1">all the stories</h1>
-            <hr>
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Short Stories
-                            </button>
-                        </h5>
-                    </div>
-
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div id="storyHeadings"></div>
-                          
-                            <div id="storyModals"></div>
+			<h1 class="section-h1">all the stories</h1>
+			<hr>
 
 
-                            <div class="modal fade" id="storyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-                                <div class="modal-dialog modal-lg" role="document">
-                                    
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Fade</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <!-- the area where the story goes ===============
+
+			<h1 class="storyHeader" data-toggle="modal" data-target=".bd-example-modal-lg">Adrenaline</h1>
+
+
+			<div id="storyModals" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+			 aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<!-- <h5 class="modal-title" id="exampleModalLabel">Fade</h5> -->
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">close</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<!-- <object style="height:100%;width:100%;border:none;" data="stories/Adrenaline.pdf"></object> -->
+							<object data="stories/Adrenaline.pdf" type="application/pdf" width="750px" height="750px">
+								<embed src="stories/Adrenaline.pdf" type="application/pdf">
+								<p>This browser does not support PDFs. Please download the PDF to view it: <a href="stories/Adrenaline.pdf">Download
+										PDF</a>.</p>
+								
+							</object>
+							<!-- <img src="stories/Adrenaline-1.jpg" width="100%">
+							<img src="stories/Adrenaline-2.jpg" width="100%"> -->
+							<!-- the area where the story goes ===============
                                         ================
                                     ==================-->
-                                        </div>
-                                        <!-- <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                Horror Stories
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                            et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                            synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
-                                different stories
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                            et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                            synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						</div>
 
-    <!-- Contact
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+
+	<!-- Contact
         ======================= -->
-    <div id="contact">
-        <div class="container">
-            <h1 class="section-h1">contact area</h1>
-            <hr>
-            <h3 class="h3-message-contact">Send me a Message</h3>
-            <form id="contactForm" name="sentMessage" novalidate>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="form-group">
+	<div id="contact">
+		<div class="container">
+			<h1 class="section-h1">contact area</h1>
+			<hr>
+			<h3 class="h3-message-contact">Send me a Message</h3>
+			<form id="contactForm" name="sentMessage" novalidate>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="form-group">
 
-                            <input placeholder="Name" type="text" class="form-control" id="name" required="required">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input placeholder="Email" type="email" class="form-control" id="email" required="required">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="message" class="form-control" id="message" rows="4" required></textarea>
-                    <p class="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" class="btn btn-custom btn-lg">Send</button>
+							<input placeholder="Name" type="text" class="form-control" id="name" required="required">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="form-group">
+							<input placeholder="Email" type="email" class="form-control" id="email" required="required">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<textarea placeholder="message" class="form-control" id="message" rows="4" required></textarea>
+					<p class="help-block text-danger"></p>
+				</div>
+				<div id="success"></div>
+				<button type="submit" class="btn btn-custom btn-lg">Send</button>
 
-            </form>
-        </div>
-    </div>
+			</form>
+		</div>
+	</div>
 
-    <!-- Footer
+	<!-- Footer
         ======================= -->
-    <footer id="footer">
-        <div class="container">
-            <p class="footer-p">Copyright &copy;2018 Design By Chris Wander</p>
-            <p class="footer-p">Copyright &copy;2018 All Written Words By Jeremy Williams</p>
-    </footer>
+	<footer id="footer">
+		<div class="container">
+			<p class="footer-p">Copyright &copy;2018 Design By Chris Wander</p>
+			<p class="footer-p">Copyright &copy;2018 All Written Words By Jeremy Williams</p>
+	</footer>
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<!-- Javascript -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 
-    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-    <script src="js/stories.js"></script>
-    <script type="text/javascript" src="/js/contact_me.js"></script>
-    <script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+	<script src="js/stories.js"></script>
+	<script type="text/javascript" src="/js/contact_me.js"></script>
+	<script type="text/javascript" src="/js/app2.js"></script>
 
 </body>
 
