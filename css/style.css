@@ -255,7 +255,7 @@ p.footer-p {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-origin: padding-box;
+		/* background-origin: padding-box; */
 	}
 
 	#about img {
