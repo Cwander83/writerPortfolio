@@ -596,33 +596,33 @@ as Sam’s dark brown skin faded to gray.</FONT></FONT></P>`
             firstSentence: `Terrence's
 wife completely disappeared; I almost lost the love of my life as
 well.`,
-            story: `<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+            story: `<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">Terrence's
 wife completely disappeared; I almost lost the love of my life as
 well. I never knew she had the procedure done. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">For
 some, marriage is eternity for them, no matter what; it was for me.
 For Carmen, the idea of marriage was a fantasy, something that most
 couples don't get in life, so she needed an indefinite way out if
 things went sour. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">We
 were married for five years; it was on the day of our anniversary
 that I noticed her pinky finger was missing. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">I
 took Carmen out for dinner, and she was really happy. I barely got to
 see her throughout the week because of work, and when I wasn't
@@ -635,29 +635,29 @@ her in the eyes. &quot;Carmen, you didn't.&quot; She started crying
 and went straight to our bedroom, instructing me to sleep on the
 couch that night. I was upset. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">The
 next morning, I showed her my disappointment. We got into a shouting
 match, and by the time she had walked out the door, her entire hand
 was gone. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">The
 procedure Carmen underwent allowed her to be erased from the world
 when she hit her lowest emotional level. After she was completely
 gone, she would be transported to another world, where she could
 start over and have no possible way of contact with me. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">I
 knew that ultimately, it was the way I treated her that was making
 her disappear, but I thought she agreed that we would be together
@@ -667,10 +667,10 @@ last priority. However, I was so hung up on her getting the procedure
 done that I started accusing her of cheating on me. This only made
 things worse. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">By
 six months time, Carmen was a floating head. She stopped speaking to
 me. I remember being in my room, looking through some photos because
@@ -680,27 +680,27 @@ promotion. I looked on the back of the frame. It read: &quot;I'm
 always here for you, and you're always there for me; that's the
 agreement, bub. -Carmen&quot; I had broken our contract. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">I
 rushed into the living room to apologize to her for being such an ass
 for so long, but she was gone. I had lost her for good, I thought. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">I
 came home from work the next night with a bouquet of roses and a
 letter and sat them on the table. I did it in remembrance of my wife.
 I sat down on the couch and just lied there for an hour. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">After
 I couldn't sleep, I got up for a drink, and I noticed a few drops of
 water on the letter. I looked around, and I saw her eyes; just her
@@ -711,10 +711,10 @@ the soul; it makes sense that they would be the last to go. She had
 been crying; her tears wet the ink on the letter. I started to hear
 her sniffling. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">I
 reached out for her hand where I remembered it, and it reappeared as
 she grasped my palm. &quot;I'm so sorry, Carmen.&quot; Both of us
@@ -722,10 +722,10 @@ shed tears as her beautiful, dark brown hair reappeared, strand by
 strand. I hugged her, and the top half of her body re-materialized. I
 walked her over to the sofa, and her legs and feet returned. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">We
 sat down, and she asked me if I meant everything I said in the
 letter. I responded, &quot;I don't deserve you; I only appreciated
@@ -734,10 +734,10 @@ without you, I'm never letting you disappear again.&quot; I leaned in
 to kiss her, and her beautiful lips came out from hiding along with
 her cheek bones and the rest of her face. </SPAN></FONT></FONT></FONT>
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%">
-<BR><BR>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%">
+
 </P>
-<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 100%"><A NAME="_GoBack"></A>
+<P STYLE="margin-top: 0.19in; margin-bottom: 0.19in; line-height: 115%"><A NAME="_GoBack"></A>
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><FONT COLOR="#1d2129"><SPAN STYLE="background: #ffffff">I
 never knew that a person could return once the procedure started to
 take place, but I was so grateful that she gave me another chance.</SPAN></FONT></FONT></FONT></P>`

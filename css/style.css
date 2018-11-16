@@ -18,7 +18,7 @@ html {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	background-image: url("../images/jeremy2.jpg");
+	background-image: url("../images/art-black-and-white-blur-147635.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -26,7 +26,6 @@ html {
 }
 
 /*====   General   ====*/
-
 hr {
 	height: 2px;
 	width: 70px;
@@ -38,6 +37,11 @@ hr {
 	border: 0;
 }
 
+.container {
+	max-width: 1240px;
+}
+
+/*====   top Page   ====*/
 .container .section-h1 {
 	text-align: center;
 	padding: 30px 0 20px 0;
@@ -47,8 +51,6 @@ hr {
 h1.section-h1 {
 	text-transform: uppercase;
 }
-
-/*====   top Page   ====*/
 
 #header {
 	width: 100%;
@@ -60,12 +62,44 @@ h1.section-h1 {
 	padding: 50px 0 0 0;
 }
 
+#header .header-body {
+	margin-top: 300px;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
 .header-row-one h1 {
 	font-size: 55px;
 }
 
 nav.header-nav-box {
-	float: right;
+	width: 50%;
+	display: inline-flex;
+	justify-content: space-evenly;
+	font-size: 24px;
+	position: fixed;
+	transition: all 0.4s ease;
+}
+
+.shrink {
+	height: 40px;
+	top: 0;
+	right: 20px;
+	align-content: center;
+	max-width: 20%;
+}
+
+nav a,
+nav a:active,
+nav a:focus {
+	color: gray;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: ghostwhite;
+	text-decoration: none;
 }
 
 /*====   About   ====*/
@@ -74,6 +108,21 @@ nav.header-nav-box {
 	width: 100%;
 	height: 800px;
 	background-color: transparent;
+	color: ghostwhite;
+}
+
+#about img {
+	width: 400px;
+	height: auto;
+	margin-top: 50px;
+	margin-left: 20px;
+	border: 1px solid #cccccc;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#about .about-text {
+	margin-top: 75px;
 }
 
 /*====   Story Book   ====*/
@@ -81,26 +130,29 @@ nav.header-nav-box {
 #stories {
 	width: 100%;
 	background-color: transparent;
-	
+	color: white;
+	min-height: 600px;
 }
+
+#storyHeadings {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+a .storyHeader {
+	text-align: center;
+	width: 300px;
+	margin: 5px 0;
+}
+
 .modal {
 	color: black;
 }
+
 .modal-dialog {
 	max-width: 1000px;
-	color: black;
-}
-
-div.card,
-.card-header {
-	background-color: transparent;
-	color: white;
-	border: none;
-	border-bottom: none;
-}
-
-.card-header .mb-0 {
-	text-align: center;
 }
 
 /*====   Contact   ====*/
@@ -111,10 +163,16 @@ div.card,
 	background-color: transparent;
 	color: white;
 	display: flex;
+	min-height: 700px;
 }
 
-div.container #form {
+#contact .container {
 	text-align: center;
+}
+
+div.container #contactForm {
+	text-align: center;
+	max-width: 600px;
 }
 
 .error {
@@ -124,14 +182,15 @@ div.container #form {
 div.container .h3-message-contact {
 	text-align: center;
 	margin-bottom: 38px;
+	margin-top: 80px;
 }
 
-#form {
-	width: 60%;
+#contactForm {
 	margin: 20px auto;
 }
 
-#contact input {
+#contact input,
+#contact textarea {
 	border: 1px solid black;
 	border-radius: 0;
 }
@@ -177,8 +236,8 @@ p.footer-p {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
 	/* Styles */
 	body,
 	html {
@@ -188,48 +247,82 @@ p.footer-p {
 		background-attachment: fixed;
 		background-origin: padding-box;
 	}
+
+	#about img {
+		display: none;
+	}
+
+	.shrink {
+		margin: 0;
+		max-width: 100%;
+	}
+
+	.container {
+		color: white;
+	}
+
+	nav a:hover {
+		color: gray;
+	}
+
+	nav.header-nav-box {
+
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	.header-brand-box {
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.modal-content {
+		margin: auto;
+		margin-top: 30px;
+		width: 90%;
+	}
+
+	.modal-body {
+		overflow-y: auto;
+		height: 700px;
+
+	}
+
 }
 
 /* Smartphones (landscape) ----------- */
-
 @media only screen and (min-width: 321px) {}
 
 /* Smartphones (portrait) ----------- */
-
 @media only screen and (max-width: 320px) {}
 
 /* iPads (portrait and landscape) ----------- */
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	/* Styles */
 }
 
 /* iPads (landscape) ----------- */
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 	/* Styles */
 }
 
 /* iPads (portrait) ----------- */
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 	/* Styles */
 }
 
 /* Desktops and laptops ----------- */
-
 @media only screen and (min-width: 1224px) {
 	/* Styles */
 }
 
 /* Large screens ----------- */
-
 @media only screen and (min-width: 1824px) {
 	/* Styles */
 }
 
 /* iPhone 4 ----------- */
-
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
 	/* Styles */

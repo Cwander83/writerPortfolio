@@ -1,7 +1,25 @@
 $(function() {
 	modalTitleCreate();
 
-	$('[data-toggle="popover"]').popover();
+	$(window).scroll(function() {
+		/* affix after scrolling 100px */
+		if ($(document).scrollTop() > 100) {
+			$("nav").addClass("shrink");
+		} else {
+			$("nav").removeClass("shrink");
+		}
+	});
+	detectmob();
+	// HIDING THE POPOVER IN A MOBILE VIEWPORT
+	function detectmob() {
+		if (window.innerWidth <= 800) {
+			$('[data-toggle="popover"]').popover("hide");
+			console.log("if popover");
+		} else {
+			return $('[data-toggle="popover"]').popover();
+		}
+		console.log("else popover");
+	}
 });
 
 // CREATING THE CLICKABLE LINK TO OPEN THE MODAL FOR EACH STORY
@@ -11,6 +29,7 @@ function modalTitleCreate() {
 	for (let i = 0; i < stories.length; i++) {
 		$titlesArray.push(
 			$("<h1>", {
+				class: "storyHeader",
 				text: stories[i].title,
 				"data-toggle": "popover",
 				"data-trigger": "hover",
@@ -57,6 +76,7 @@ function modalBodyCreate() {
 
 	$("#storyModals").append($modal);
 
+	// MODAL
 	$(".modal").each(function() {
 		$(this)
 			.append(
@@ -72,6 +92,7 @@ function modalBodyCreate() {
 			);
 	});
 
+	// MODAL HEADER AND BODY
 	$(".modal-content").each(function(i) {
 		$(this)
 			.append(
@@ -82,9 +103,14 @@ function modalBodyCreate() {
 			)
 			.append(
 				$("<div>", {
-					class: "modal-body",
-					text: $stories[i]
+					class: "modal-body"
 				})
 			);
 	});
+
+	// STORIES TO THE MODAL BODY
+	$(".modal-body").each(function(i) {
+		$(this).html($stories[i]);
+	});
+	console.log("modal create");
 }
