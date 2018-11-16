@@ -151,19 +151,19 @@ a .storyHeader {
 	color: black;
 }
 
-.modal-body {
+/* .modal-body {
 	height: 800px;
-}
+} */
 
 .modal-dialog {
 	max-width: 1000px;
-
 }
 
-object {
+.modal-body img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
+
 
 /*====   Contact   ====*/
 
@@ -298,7 +298,8 @@ p.footer-p {
 		height: 700px;
 
 	}
-	.page{
+
+	.page {
 		width: 100%;
 	}
 
