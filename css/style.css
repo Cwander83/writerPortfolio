@@ -319,6 +319,10 @@ p.footer-p {
 
 	}
 
+	.modal-body img {
+		transform: scale(1.2);
+	}
+
 	.page {
 		width: 100%;
 	}

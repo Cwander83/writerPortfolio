@@ -1,10 +1,10 @@
-$(function() {
+$(function () {
 	$("input,textarea").jqBootstrapValidation({
 		preventSubmit: true,
-		submitError: function($form, event, errors) {
+		submitError: function ($form, event, errors) {
 			// additional error messages or events
 		},
-		submitSuccess: function($form, event) {
+		submitSuccess: function ($form, event) {
 			event.preventDefault(); // prevent default submit behaviour
 			// get values from FORM
 			var name = $("input#name").val();
@@ -19,7 +19,7 @@ $(function() {
 					.join(" ");
 			}
 			$.ajax({
-        url: "././mail/contact_me.php",
+				url: "././mail/contact_me.php",
 				type: "POST",
 				data: {
 					name: name,
@@ -27,7 +27,7 @@ $(function() {
 					message: message
 				},
 				cache: false,
-				success: function() {
+				success: function () {
 					// Success message
 					$("#success").html("<div class='alert alert-success'>");
 					$("#success > .alert-success")
@@ -43,8 +43,8 @@ $(function() {
 					//clear all fields
 					$("#contactForm").trigger("reset");
 				},
-				error: function() {
-					
+				error: function () {
+
 					// Fail message
 					$("#success").html("<div class='alert alert-danger'>");
 					$("#success > .alert-danger")
@@ -54,8 +54,8 @@ $(function() {
 						.append("</button>");
 					$("#success > .alert-danger").append(
 						"<strong>Sorry " +
-							firstName +
-							", it seems that my mail server is not responding. Please try again later!"
+						firstName +
+						", it seems that my mail server is not responding. Please try again later!"
 					);
 					$("#success > .alert-danger").append("</div>");
 					//clear all fields
@@ -63,18 +63,18 @@ $(function() {
 				}
 			});
 		},
-		filter: function() {
+		filter: function () {
 			return $(this).is(":visible");
 		}
 	});
 
-	$('a[data-toggle="tab"]').click(function(e) {
+	$('a[data-toggle="tab"]').click(function (e) {
 		e.preventDefault();
 		$(this).tab("show");
 	});
 });
 
 /*When clicking on Full hide fail/success boxes */
-$("#name").focus(function() {
+$("#name").focus(function () {
 	$("#success").html("");
 });
