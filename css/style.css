@@ -12,14 +12,7 @@ h1.customFont {
 	font-family: "My Custom Font";
 }
 
-html {
-	overflow: hidden;
-}
 
-body {
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
-}
 
 body,
 html {
@@ -256,6 +249,14 @@ p.footer-p {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	html {
+		overflow: hidden;
+	}
+
+	body {
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
 
 	/* Styles */
 	body,
@@ -265,6 +266,14 @@ p.footer-p {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		/* background-origin: padding-box; */
+	}
+
+	#header .header-body {
+		margin-top: 180px;
+	}
+
+	nav a h3 {
+		margin-bottom: 0;
 	}
 
 	#about img {
@@ -280,12 +289,14 @@ p.footer-p {
 		color: white;
 	}
 
+
 	nav a:hover {
-		color: gray;
+		color: ghostwhite;
+		font-weight: 600;
 	}
 
 	nav.header-nav-box {
-
+		background: rgba(0, 0, 0, 0.4);
 		top: 0;
 		left: 0;
 		width: 100%;
