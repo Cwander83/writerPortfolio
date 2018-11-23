@@ -141,11 +141,12 @@ nav a:hover {
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	padding: 0 80px;
 }
 
-a .storyHeader {
+.storyHeader {
 	text-align: center;
-	width: 300px;
+	width: 50%;
 	margin: 5px 0;
 }
 
@@ -305,6 +306,13 @@ p.footer-p {
 	.header-brand-box {
 		text-align: center;
 		padding-top: 20px;
+	}
+
+	#storyHeadings {
+		padding: 0 10px;
+	}
+	.storyHeader {
+		width: 100%;
 	}
 
 	.modal-content {
