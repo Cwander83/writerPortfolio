@@ -12,6 +12,15 @@ h1.customFont {
 	font-family: "My Custom Font";
 }
 
+html {
+	overflow: hidden;
+}
+
+body {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
 body,
 html {
 	font-family: 'Font Two';
