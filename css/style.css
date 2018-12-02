@@ -12,6 +12,8 @@ h1.customFont {
 	font-family: "My Custom Font";
 }
 
+
+
 body,
 html {
 	font-family: 'Font Two';
@@ -132,7 +134,7 @@ nav a:hover {
 	background-color: transparent;
 	color: white;
 	min-height: 600px;
-<<<<<<< HEAD
+
 }
 
 #storyHeadings {
@@ -154,7 +156,7 @@ a .storyHeader {
 
 .modal-dialog {
 	max-width: 1000px;
-=======
+
 }
 
 #storyHeadings {
@@ -162,11 +164,12 @@ a .storyHeader {
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	padding: 0 80px;
 }
 
-a .storyHeader {
+.storyHeader {
 	text-align: center;
-	width: 300px;
+	width: 50%;
 	margin: 5px 0;
 }
 
@@ -174,20 +177,23 @@ a .storyHeader {
 	color: black;
 }
 
-.modal-body {
+/* .modal-body {
 	height: 800px;
-}
+} */
 
 .modal-dialog {
 	max-width: 1000px;
-
 }
 
-object {
+.modal-body img {
 	width: 100%;
+
 	height: 100%;
->>>>>>> 62b0746ab4f20593e546bd389a5480b835abef47
+
+	height: auto;
+
 }
+
 
 /*====   Contact   ====*/
 
@@ -198,11 +204,7 @@ object {
 	color: white;
 	display: flex;
 	min-height: 700px;
-<<<<<<< HEAD
-}
 
-#contact .container {
-=======
 }
 
 #contact .container {
@@ -210,7 +212,7 @@ object {
 }
 
 div.container #contactForm {
->>>>>>> 62b0746ab4f20593e546bd389a5480b835abef47
+
 	text-align: center;
 	max-width: 600px;
 }
@@ -282,6 +284,14 @@ p.footer-p {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	html {
+		overflow: hidden;
+	}
+
+	body {
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
 
 	/* Styles */
 	body,
@@ -290,7 +300,15 @@ p.footer-p {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-origin: padding-box;
+		/* background-origin: padding-box; */
+	}
+
+	#header .header-body {
+		margin-top: 180px;
+	}
+
+	nav a h3 {
+		margin-bottom: 0;
 	}
 
 	#about img {
@@ -306,12 +324,14 @@ p.footer-p {
 		color: white;
 	}
 
+
 	nav a:hover {
-		color: gray;
+		color: ghostwhite;
+		font-weight: 600;
 	}
 
 	nav.header-nav-box {
-
+		background: rgba(0, 0, 0, 0.4);
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -320,6 +340,13 @@ p.footer-p {
 	.header-brand-box {
 		text-align: center;
 		padding-top: 20px;
+	}
+
+	#storyHeadings {
+		padding: 0 10px;
+	}
+	.storyHeader {
+		width: 100%;
 	}
 
 	.modal-content {
@@ -333,12 +360,18 @@ p.footer-p {
 		height: 700px;
 
 	}
-<<<<<<< HEAD
-=======
-	.page{
+
+
+
+	.modal-body img {
+		transform: scale(1.2);
+	}
+
+	.page {
+
 		width: 100%;
 	}
->>>>>>> 62b0746ab4f20593e546bd389a5480b835abef47
+
 
 }
 

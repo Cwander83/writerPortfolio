@@ -14,6 +14,7 @@
 	 crossorigin="anonymous">
 
 	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -88,24 +89,35 @@
         ====================== -->
 	<div id="stories">
 		<div class="container">
-
 			<h1 class="section-h1">all the stories</h1>
 			<hr>
 
-			<h1 class="storyHeader" data-toggle="modal" data-target=".bd-example-modal-lg">Adrenaline</h1>
+			<div id="storyHeadings">
+				<!-- Modal story links on main page -->
+				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline">Adrenaline</h1>
+				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline2">Monkey Business</h1>
+				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline3">It Takes Two</h1>
 
-
-			<div id="storyModals" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline">Fire Fire the Roof is on Fire</h1>
+				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline2">The Fly in the closet</h1>
+				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline3">Cold as Hell</h1>
+			</div>
+			
+			<!-- This is where all the modals for each story (they are contected to h1 thru data-target to class of the story name) -->
+			<!--  Adrenaline -->
+			<div id="storyModals" class="modal adrenaline bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+>>>>>>> cebc84f45235100034db71fa546c9c446c7fcb9c
 			 aria-hidden="true">
 				<div class="modal-dialog modal-lg">
 					<div class="modal-content">
 						<div class="modal-header">
-							<!-- <h5 class="modal-title" id="exampleModalLabel">Fade</h5> -->
+							<h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">close</span>
 							</button>
 						</div>
 						<div class="modal-body">
+<<<<<<< HEAD
 							<!-- <object style="height:100%;width:100%;border:none;" data="stories/Adrenaline.pdf"></object> -->
 							<object data="stories/Adrenaline.pdf" type="application/pdf" width="750px" height="750px">
 								<embed src="stories/Adrenaline.pdf" type="application/pdf">
@@ -119,11 +131,49 @@
 							<!-- the area where the story goes ===============
                                         ================
                                     ==================-->
+=======
+							<img src="stories/Adrenaline-1.jpg" alt="Adrenaline1">
+							<img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s">
 						</div>
-
 					</div>
 				</div>
 			</div>
+			<div id="storyModals" class="modal adrenaline2 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+			 aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">close</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="stories/Adrenaline-1.jpg" alt="Adrenaline1">
+							<img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="storyModals" class="modal adrenaline3 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+			 aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">close</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="stories/Adrenaline-1.jpg" alt="Adrenaline1">
+							<img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s">
+>>>>>>> cebc84f45235100034db71fa546c9c446c7fcb9c
+						</div>
+					</div>
+				</div>
+			</div>
+
 
 
 		</div>
@@ -168,19 +218,16 @@
         ======================= -->
 	<footer id="footer">
 		<div class="container">
-			<p class="footer-p">Copyright &copy;2018 Design By Chris Wander</p>
+			<p class="footer-p">Copyright &copy;2018 Website By Chris Wander</p>
 			<p class="footer-p">Copyright &copy;2018 All Written Words By Jeremy Williams</p>
 	</footer>
 
 	<!-- Javascript -->
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-
 	<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-	
-	<script type="text/javascript" src="/js/contact_me.js"></script>
-	<script type="text/javascript" src="/js/app2.js"></script>
-
+	<script type="text/javascript" src="js/contact_me.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>
