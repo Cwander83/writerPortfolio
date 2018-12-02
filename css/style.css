@@ -132,6 +132,7 @@ nav a:hover {
 	background-color: transparent;
 	color: white;
 	min-height: 600px;
+<<<<<<< HEAD
 }
 
 #storyHeadings {
@@ -153,6 +154,39 @@ a .storyHeader {
 
 .modal-dialog {
 	max-width: 1000px;
+=======
+}
+
+#storyHeadings {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+a .storyHeader {
+	text-align: center;
+	width: 300px;
+	margin: 5px 0;
+}
+
+.modal {
+	color: black;
+}
+
+.modal-body {
+	height: 800px;
+}
+
+.modal-dialog {
+	max-width: 1000px;
+
+}
+
+object {
+	width: 100%;
+	height: 100%;
+>>>>>>> 62b0746ab4f20593e546bd389a5480b835abef47
 }
 
 /*====   Contact   ====*/
@@ -164,10 +198,21 @@ a .storyHeader {
 	color: white;
 	display: flex;
 	min-height: 700px;
+<<<<<<< HEAD
+}
+
+#contact .container {
+=======
 }
 
 #contact .container {
 	text-align: center;
+}
+
+div.container #contactForm {
+>>>>>>> 62b0746ab4f20593e546bd389a5480b835abef47
+	text-align: center;
+	max-width: 600px;
 }
 
 div.container #contactForm {
@@ -288,6 +333,12 @@ p.footer-p {
 		height: 700px;
 
 	}
+<<<<<<< HEAD
+=======
+	.page{
+		width: 100%;
+	}
+>>>>>>> 62b0746ab4f20593e546bd389a5480b835abef47
 
 }
 
