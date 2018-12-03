@@ -89,7 +89,7 @@ nav.header-nav-box {
 	top: 0;
 	right: 20px;
 	align-content: center;
-	max-width: 20%;
+	max-width: 23%;
 }
 
 nav a,
@@ -137,26 +137,8 @@ nav a:hover {
 
 }
 
-#storyHeadings {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-a .storyHeader {
-	text-align: center;
-	width: 300px;
-	margin: 5px 0;
-}
-
-.modal {
-	color: black;
-}
-
 .modal-dialog {
 	max-width: 1000px;
-
 }
 
 #storyHeadings {
@@ -177,21 +159,9 @@ a .storyHeader {
 	color: black;
 }
 
-/* .modal-body {
-	height: 800px;
-} */
-
-.modal-dialog {
-	max-width: 1000px;
-}
-
 .modal-body img {
 	width: 100%;
-
-	height: 100%;
-
 	height: auto;
-
 }
 
 
@@ -309,6 +279,7 @@ p.footer-p {
 
 	nav a h3 {
 		margin-bottom: 0;
+
 	}
 
 	#about img {
@@ -323,7 +294,6 @@ p.footer-p {
 	.container {
 		color: white;
 	}
-
 
 	nav a:hover {
 		color: ghostwhite;
@@ -345,6 +315,7 @@ p.footer-p {
 	#storyHeadings {
 		padding: 0 10px;
 	}
+
 	.storyHeader {
 		width: 100%;
 	}
@@ -358,20 +329,15 @@ p.footer-p {
 	.modal-body {
 		overflow-y: auto;
 		height: 700px;
-
 	}
-
-
 
 	.modal-body img {
 		transform: scale(1.2);
 	}
 
 	.page {
-
 		width: 100%;
 	}
-
 
 }
 
@@ -393,7 +359,11 @@ p.footer-p {
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
 	/* Styles */
+	.shrink {
+		max-width: 28%;
+	}
 }
 
 /* Desktops and laptops ----------- */
