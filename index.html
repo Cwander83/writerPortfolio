@@ -1,220 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jeremy Webpage</title>
+    <!-- Viewport Meta Tag -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-	<meta charset="utf-8">
-	<title>Jeremy Webpage</title>
-	<!-- Viewport Meta Tag -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+      integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+      crossorigin="anonymous"
+    />
 
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-	 crossorigin="anonymous">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-	<!-- Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-expand-lg">
+    <!--
+      Top Page
+        =====================
+    -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-expand-lg">
+    <header id="header">
+      <div class="container">
+        <div class="row header-row-one">
+          <div class="col-sm">
+            <div class="header-brand-box">
+              <h1 class="customFont">Jeremy Williams</h1>
+            </div>
+          </div>
+          <div class="col-sm">
+            <nav class="header-nav-box">
+              <a href="#about"> <h3>About</h3> </a>
+              <a href="#stories"> <h3>Stories</h3> </a>
+              <a href="#contact"> <h3>Contact</h3> </a>
+            </nav>
+          </div>
+        </div>
+        <div class="row header-body">
+          <div class="container">
+            <h2>Writer, Blogger, Delight</h2>
+            <h3>
+              With the stroke of a pen,<br />
+              &nbsp;&nbsp;&nbsp;&nbsp; I create worlds that have never been.<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With the strike of a key,<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I take readers
+              places they thought they’d never be.
+            </h3>
+            <a class="btn btn-custom btn-lg" href="#about">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-	<!-- Top Page 
-        ===================== -->
+    <!--
+      About section
+      =========================
+    -->
+    <div id="about">
+      <div class="container">
+        <h1 class="section-h1">about section</h1>
+        <hr />
+        <div class="row">
+          <div class="col-sm">
+            <img src="./images/JeremytheStoryteller.jpg" alt="jeremy" />
+          </div>
+          <div class="col-sm">
+            <div class="about-text">
+              <p>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jeremy Williams is an American author best known for the
+                “Running Backward” book series. Currently residing in his
+                hometown, Orlando, Florida, Williams is always inspired by his
+                surroundings which guide him in writing dozens of short,
+                fictional tales, taking everyday occurrences and intertwining
+                them with science fiction- or fantasy-based origins. “Running
+                Backward”, a book series about black history, Latin history, and
+                time travel is Williams’ first collection of full-length novels.
+                Williams also focuses on, but is not limited to, urban
+                characters as main characters for his stories such as “It Takes
+                Two” and “The Architect”, with the reasoning that
+                “representation matters.”
+              </p>
+              <br /><br />
+              <h3>&ensp; — Author. Writer. Creator.</h3>
+              <br />
+              <h3>&ensp; — Words Are My Mistress. Storytelling, My Spouse.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<header id="header">
+    <!--
+      Stories
+        ======================
+    -->
+    <div id="stories">
+      <div class="container">
+        <h1 class="section-h1">all the stories</h1>
+        <hr />
 
-		<div class="container">
-			<div class="row header-row-one">
-				<div class="col-sm">
-					<div class="header-brand-box">
-						<h1 class="customFont">Jeremy Williams</h1>
+        <div id="storyHeadings">
+          <!-- Modal story links on main page -->
+          <h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline">
+            Adrenaline
+          </h1>
+          <h1
+            class="storyHeader"
+            data-toggle="modal"
+            data-target=".adrenaline2"
+          >
+            Monkey Business
+          </h1>
+          <h1
+            class="storyHeader"
+            data-toggle="modal"
+            data-target=".adrenaline3"
+          >
+            It Takes Two
+          </h1>
 
-					</div>
-				</div>
-				<div class="col-sm">
-					<nav class="header-nav-box">
-						<a href="#about">
-							<h3>About</h3>
-						</a>
-						<a href="#stories">
-							<h3>Stories</h3>
-						</a>
-						<a href="#contact">
-							<h3>Contact</h3>
-						</a>
+          <h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline">
+            Fire Fire the Roof is on Fire
+          </h1>
+          <h1
+            class="storyHeader"
+            data-toggle="modal"
+            data-target=".adrenaline2"
+          >
+            The Fly in the closet
+          </h1>
+          <h1
+            class="storyHeader"
+            data-toggle="modal"
+            data-target=".adrenaline3"
+          >
+            Cold as Hell
+          </h1>
+        </div>
 
-					</nav>
-				</div>
+        <!--
+          This is where all the modals for each story (they are contected to h1 thru data-target to class of the story name)
+        -->
+        <!-- Adrenaline -->
+        <div
+          id="storyModals"
+          class="modal adrenaline bd-example-modal-lg"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">close</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!--
+                  the area where the story goes ===============
+                                              ================
+                                          ==================
+                -->
 
-			</div>
-			<div class="row header-body">
-				<div class="container">
-					<h2>Writer, Blogger, Delight </h2>
-					<a class="btn btn-custom btn-lg" href="#about">Learn More</a>
-				</div>
-			</div>
-		</div>
-	</header>
+                <img src="stories/Adrenaline-1.jpg" alt="Adrenaline1" />
+                <img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="storyModals"
+          class="modal adrenaline2 bd-example-modal-lg"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">close</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="stories/Adrenaline-1.jpg" alt="Adrenaline1" />
+                <img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="storyModals"
+          class="modal adrenaline3 bd-example-modal-lg"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">close</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="stories/Adrenaline-1.jpg" alt="Adrenaline1" />
+                <img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<!-- About section 
-    ========================= -->
-	<div id="about">
-		<div class="container">
-			<h1 class="section-h1">about section </h1>
-			<hr>
-			<div class="row">
-				<div class="col-sm">
-					<img src="./images/JeremytheStoryteller.jpg" alt="jeremy">
-				</div>
-				<div class="col-sm">
-					<div class="about-text">
-						<h3>With the stroke of a pen,<br>
-							I create worlds that have never been.<br>
-							With the strike of a key,<br>
-							I take readers places they thought they’d never be.
-						</h3><br><br>
-						<h3>&ensp; — Author. Writer. Creator.</h3>
-						<br>
-						<h3>&ensp; — Words Are My Mistress. Storytelling, My Spouse.</h3>
-					</div>
-				</div>
+    <!--
+      Contact
+        =======================
+    -->
+    <div id="contact">
+      <div class="container">
+        <h1 class="section-h1">contact area</h1>
+        <hr />
+        <h3 class="h3-message-contact">Send me a Message</h3>
+        <form id="contactForm" name="sentMessage" novalidate>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input
+                  placeholder="Name"
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  required="required"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input
+                  placeholder="Email"
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required="required"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea
+              placeholder="message"
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-custom btn-lg">Send</button>
+        </form>
+      </div>
+    </div>
 
-			</div>
-		</div>
-	</div>
+    <!--
+      Footer
+        =======================
+    -->
+    <footer id="footer">
+      <div class="container">
+        <p class="footer-p">Copyright &copy;2018 Website By Chris Wander</p>
+        <p class="footer-p">
+          Copyright &copy;2018 All Written Words By Jeremy Williams
+        </p>
+      </div>
+    </footer>
 
-	<!-- Stories
-        ====================== -->
-	<div id="stories">
-		<div class="container">
-			<h1 class="section-h1">all the stories</h1>
-			<hr>
-
-			<div id="storyHeadings">
-				<!-- Modal story links on main page -->
-				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline">Adrenaline</h1>
-				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline2">Monkey Business</h1>
-				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline3">It Takes Two</h1>
-
-				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline">Fire Fire the Roof is on Fire</h1>
-				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline2">The Fly in the closet</h1>
-				<h1 class="storyHeader" data-toggle="modal" data-target=".adrenaline3">Cold as Hell</h1>
-			</div>
-
-			<!-- This is where all the modals for each story (they are contected to h1 thru data-target to class of the story name) -->
-			<!--  Adrenaline -->
-			<div id="storyModals" class="modal adrenaline bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-			 aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">close</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<!-- the area where the story goes ===============
-                                        ================
-                                    ==================-->
-
-							<img src="stories/Adrenaline-1.jpg" alt="Adrenaline1">
-							<img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="storyModals" class="modal adrenaline2 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-			 aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">close</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<img src="stories/Adrenaline-1.jpg" alt="Adrenaline1">
-							<img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="storyModals" class="modal adrenaline3 bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-			 aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">Adrenaline</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">close</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<img src="stories/Adrenaline-1.jpg" alt="Adrenaline1">
-							<img src="stories/Adrenaline-2.jpg" alt="Adrenaline2s">
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-
-		</div>
-	</div>
-
-
-	<!-- Contact
-        ======================= -->
-	<div id="contact">
-		<div class="container">
-			<h1 class="section-h1">contact area</h1>
-			<hr>
-			<h3 class="h3-message-contact">Send me a Message</h3>
-			<form id="contactForm" name="sentMessage" novalidate>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="form-group">
-
-							<input placeholder="Name" type="text" class="form-control" id="name" required="required">
-							<p class="help-block text-danger"></p>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="form-group">
-							<input placeholder="Email" type="email" class="form-control" id="email" required="required">
-							<p class="help-block text-danger"></p>
-						</div>
-					</div>
-				</div>
-				<div class="form-group">
-					<textarea placeholder="message" class="form-control" id="message" rows="4" required></textarea>
-					<p class="help-block text-danger"></p>
-				</div>
-				<div id="success"></div>
-				<button type="submit" class="btn btn-custom btn-lg">Send</button>
-
-			</form>
-		</div>
-	</div>
-
-	<!-- Footer
-        ======================= -->
-	<footer id="footer">
-		<div class="container">
-			<p class="footer-p">Copyright &copy;2018 Website By Chris Wander</p>
-			<p class="footer-p">Copyright &copy;2018 All Written Words By Jeremy Williams</p>
-		</div>
-	</footer>
-
-	<!-- Javascript -->
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-	<script type="text/javascript" src="js/contact_me.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-</body>
-
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
 </html>
