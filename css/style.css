@@ -307,6 +307,14 @@ p.footer-p {
 	.container {
 		color: white;
 	}
+	
+	#about .about-text {
+		margin-top: 25px;
+	}
+
+.about-text h3 {
+	margin-left: 5%;
+}
 
 	nav a:hover {
 		color: ghostwhite;
