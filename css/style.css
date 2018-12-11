@@ -252,6 +252,8 @@ div.container .h3-message-contact {
 }
 
 p.footer-p {
+
+	font-size: 14px;
 	font-weight: 600;
 	color: white;
 }
@@ -285,6 +287,13 @@ p.footer-p {
 		margin-bottom: 0;
 
 	}
+	
+
+	.header-body h3 {
+		text-align: left;
+		margin-left: 20%;
+		font-size: 18px;
+	}
 
 	#about img {
 		display: none;
@@ -315,6 +324,7 @@ p.footer-p {
 		text-align: center;
 		padding-top: 20px;
 	}
+
 
 	#storyHeadings {
 		padding: 0 10px;
