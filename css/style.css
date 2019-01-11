@@ -74,6 +74,7 @@ h1.section-h1 {
 .header-body h2 {
 	margin-bottom: 40px;
 }
+
 .header-body h3 {
 	text-align: left;
 	margin-left: 45%;
@@ -116,7 +117,7 @@ nav a:hover {
 
 #about {
 	width: 100%;
-	height: 800px;
+	height: auto;
 	background-color: transparent;
 	color: ghostwhite;
 }
@@ -287,7 +288,7 @@ p.footer-p {
 		margin-bottom: 0;
 
 	}
-	
+
 
 	.header-body h3 {
 		text-align: left;
@@ -307,14 +308,14 @@ p.footer-p {
 	.container {
 		color: white;
 	}
-	
+
 	#about .about-text {
 		margin-top: 25px;
 	}
 
-.about-text h3 {
-	margin-left: 5%;
-}
+	.about-text h3 {
+		margin-left: 5%;
+	}
 
 	nav a:hover {
 		color: ghostwhite;
@@ -361,6 +362,12 @@ p.footer-p {
 		width: 100%;
 	}
 
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+	#about img {
+		width: 99%;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
